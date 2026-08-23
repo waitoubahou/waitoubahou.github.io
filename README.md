@@ -1,13 +1,14 @@
-# Wassim Aitoubahou Engineering Archive
+# Wassim Ait Oubahou Engineering Archive
 
-A static public front end for Wassim Aitoubahou's engineering work, technical notes and supporting documents. The V1 site is deliberately restrained, documentation-oriented and honest about unavailable or unverified material.
+A static public front end for Wassim Ait Oubahou's engineering work, technical notes and supporting documents. The V1 site is deliberately restrained, documentation-oriented and honest about unavailable or unverified material.
 
 ## Technology
 
 - Semantic HTML5
 - One CSS stylesheet: `assets/css/main.css`
 - No JavaScript
-- No frontend framework, package manager, external font, tracker or build step
+- Self-hosted IBM Plex Serif, Sans and Mono fonts
+- No frontend framework, package manager, tracker or build step
 
 ## Local Preview
 
@@ -21,16 +22,16 @@ Open `http://localhost:8000/`. Do not open the HTML files directly from disk whe
 
 ## GitHub Pages Deployment
 
-1. Create or open the GitHub repository intended to host the site, for example `website`.
+1. Open the `waitoubahou/waitoubahou.github.io` repository.
 2. Copy the contents of this directory to the repository root so `index.html` is at the root.
 3. Commit and push the files to the default branch.
 4. In the repository, open **Settings → Pages**.
 5. Under **Build and deployment**, choose **Deploy from a branch**.
 6. Select the default branch and the `/(root)` folder, then save.
-7. Wait for GitHub Pages to publish the site at a project URL such as `https://i2bahu.github.io/website/`.
-8. Test navigation, nested project pages and the 404 page from the published project URL.
+7. Wait for GitHub Pages to publish the site at `https://waitoubahou.github.io/`.
+8. Test navigation, nested project pages and the 404 page from the published URL.
 
-All internal URLs are relative and are designed to survive the `/website/` project subdirectory.
+All internal URLs are relative.
 
 ## Directory Structure
 
@@ -54,6 +55,8 @@ All internal URLs are relative and are designed to survive the `/website/` proje
 ├── contact/
 ├── assets/
 │   ├── css/
+│   ├── fonts/
+│   ├── icons/
 │   ├── images/
 │   ├── documents/
 │   └── files/
@@ -85,7 +88,7 @@ All internal URLs are relative and are designed to survive the `/website/` proje
 
 ## Update the CV
 
-1. Add `assets/documents/cv/Wassim_Aitoubahou_CV.pdf`.
+1. Add `assets/documents/cv/Wassim_Ait_Oubahou_CV.pdf`.
 2. Replace the unavailable message in `cv/index.html` with the prepared PDF link shown in its HTML comment.
 3. Update the displayed date and document register if the CV is to be revision-controlled.
 
@@ -108,8 +111,8 @@ For `aitoubahou.com`:
 
 - Replace all `[DATE]` and required `[TODO]` fields.
 - Supply and validate public PDF artefacts before enabling their links.
-- Confirm GitHub and LinkedIn URLs.
+- Recheck GitHub and LinkedIn URLs if profile handles change.
 - Verify AtlasSAT orbit and every other numerical value.
 - Confirm Hybrid Composite Damping project status.
 - Add publication-safe technical figures with dimensions, alt text and captions.
-- Add canonical/social metadata and favicon once the final URL and assets are known.
+- Add canonical and social-preview metadata once final imagery is available.
