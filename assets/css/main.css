@@ -316,6 +316,31 @@ main { padding: 3.25rem 0 4.5rem; }
   text-align: center;
 }
 
+.project-image,
+.figure-image,
+.diagram-stack img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-image,
+.figure-image,
+.diagram-stack {
+  border: 1px solid var(--rule);
+  background: #fff;
+}
+
+.project-visual .project-image {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.project-hero-figure {
+  max-width: 900px;
+  margin: -0.8rem 0 3rem;
+}
+
 .note-register { border-bottom: 1px solid var(--rule); }
 .note-row {
   display: grid;
@@ -442,6 +467,15 @@ tbody th { width: 34%; font-weight: 650; }
   gap: 1.25rem;
 }
 .figure-grid .asset-placeholder { min-height: 220px; }
+.figure-grid figure { min-width: 0; }
+.figure-grid .figure-wide { grid-column: 1 / -1; }
+.figure-image { aspect-ratio: 4 / 3; object-fit: contain; }
+.diagram-stack { padding: clamp(0.5rem, 2vw, 1rem); }
+.diagram-stack .diagram-legend {
+  width: min(760px, 82%);
+  margin: 0.65rem auto 0;
+  border: 0;
+}
 
 .compact-list { columns: 2; column-gap: 2.5rem; }
 .compact-list li { break-inside: avoid; }
