@@ -1,6 +1,8 @@
 # Document Placeholders
 
-No PDF artefacts are included in V1. The HTML pages deliberately show unavailable status instead of linking to missing files.
+The public engineering portfolio is available as `Portfolio_Wassim_Ait_Oubahou.pdf` and linked from the homepage.
+
+Other HTML pages deliberately show unavailable status instead of linking to missing files.
 
 Expected paths after verified files are supplied:
 
