@@ -1,23 +1,26 @@
-# AtlasSAT Study 2A — unchanged PDF mirrors
+# AtlasSAT Study 2A · Editorial Rev1 PDF mirrors
 
-These three files are exact copies of the accepted public-distribution PDFs in the frozen [AtlasSAT-16U-SWM1 v1.0.0 release](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/releases/tag/v1.0.0), commit `7129fbc6dcd938879af780bb71556d260583e55d`.
+These three publications match the approved PDFs at engineering commit [`f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493`](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/commit/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493) byte-for-byte. The short URLs support existing bookmarks and the project page's Open PDF and Download actions. The longer names sit in the same directory so the embedded relative companion PDF destinations resolve in both sets of copies.
 
-No PDF was recompiled, compressed, rasterised, watermarked or otherwise transformed. The existing 2A-2 mirror is preserved byte-for-byte. The engineering repository remains the canonical source for scientific code, evidence and attribution; no TeX or full scientific datasets are mirrored here.
+| Document | Stable website URL | Companion filename | Pages | SHA-256 of both copies |
+|---|---|---|---:|---|
+| 2A | [Short URL](AtlasSAT_2A_RevD3_4.pdf) | [PDF companion name](AtlasSAT_2A_Orbital_Analysis_OnePager_RevD3_4_Editorial_Rev1.pdf) | 1 | `e4e4eaf249ac6b9f03bbc24f13cc033fdad8586fd71498bc69a479f339c66be1` |
+| 2A-1 | [Short URL](AtlasSAT_2A-1_RevD3_5.pdf) | [PDF companion name](AtlasSAT_2A-1_Orbital_Analysis_RevD3_5_Editorial_Rev1.pdf) | 21 | `2c589e53f563b35a2c3edbcea558888806d7fcdb23c1994323d4385ade4d7c95` |
+| 2A-2 | [Short URL](AtlasSAT_2A-2_v0.2.1.pdf) | [PDF companion name](AtlasSAT_2A-2_Analytical_Derivations_v0.2.1_Editorial_Rev1.pdf) | 49 | `f17716b3b85d5cb3270cababe9894cae5005b7c5929fd47b30c91c026fd54ae8` |
 
-| Document | Website mirror | Pages | SHA-256 |
-|---|---|---:|---|
-| 2A | [AtlasSAT_2A_RevD3_4.pdf](AtlasSAT_2A_RevD3_4.pdf) | 1 | `43dc05eb49081c7c610d3c09b6d4681b65617e8229c42b0b046782a166a10bff` |
-| 2A-1 | [AtlasSAT_2A-1_RevD3_5.pdf](AtlasSAT_2A-1_RevD3_5.pdf) | 21 | `39d6cfd09983e9cc1c28b123a8a85067295360cbecf72e3f346a617e56531781` |
-| 2A-2 | [AtlasSAT_2A-2_v0.2.1.pdf](AtlasSAT_2A-2_v0.2.1.pdf) | 49 | `6c2500de9e960373ad28aae6a85dbae60d073c58372a31aa4883ebeb4484c83c` |
+## Source publications
 
-## Immutable source paths
+- 2A [Engineering PDF](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/documents/AtlasSAT_2A_Orbital_Analysis_OnePager_RevD3_4_Editorial_Rev1.pdf)
+- 2A-1 [Engineering PDF](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/documents/AtlasSAT_2A-1_Orbital_Analysis_RevD3_5_Editorial_Rev1.pdf)
+- 2A-2 [Engineering PDF](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/documents/AtlasSAT_2A-2_Analytical_Derivations_v0.2.1_Editorial_Rev1.pdf)
 
-- 2A: [AtlasSAT_2A_Orbital_Analysis_OnePager_RevD3_4_Public_RC_v0_2.pdf](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/v1.0.0/studies/2A-orbital-analysis/documents/AtlasSAT_2A_Orbital_Analysis_OnePager_RevD3_4_Public_RC_v0_2.pdf).
-- 2A-1: [AtlasSAT_2A-1_Orbital_Analysis_RevD3_5_Public_RC_v0_2.pdf](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/v1.0.0/studies/2A-orbital-analysis/documents/AtlasSAT_2A-1_Orbital_Analysis_RevD3_5_Public_RC_v0_2.pdf).
-- 2A-2: [AtlasSAT_2A-2_Analytical_Derivations_v0.2.1_Public_RC_v0_2.pdf](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/v1.0.0/studies/2A-orbital-analysis/documents/AtlasSAT_2A-2_Analytical_Derivations_v0.2.1_Public_RC_v0_2.pdf).
+## Evidence and viewing
 
-## Viewing and deployment boundary
+Four embedded relative evidence destinations remain in the engineering repository. The website provides the public evidence index below for access to those files without mirroring the underlying study records.
 
-The project page offers Open PDF (new browser tab) and Download links. Inline display depends on the browser's native PDF support. Keep `application/pdf` when serving these static files. During PR #3 review, local HTTP preview checks are separate from deployed GitHub Pages checks: feature-branch URLs are not claimed to be live on the public website before merge/deployment.
+- [Public evidence index](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/documents/PUBLIC_EVIDENCE_AVAILABILITY.md)
+- [Analytical comparison CSV](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/evidence/ANALYTICAL_COMPARISON.csv)
+- [Assumptions and limitations](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/evidence/ASSUMPTIONS_AND_LIMITATIONS.md)
+- [Saved analytical calculations](https://github.com/waitoubahou/AtlasSAT-16U-SWM1/blob/f44e7a1d6b3ec27a92bda3b6d21e0adbb7786493/studies/2A-orbital-analysis/evidence/calculations.json)
 
-Existing source attributions inside the PDFs are unchanged. This mirror introduces no project-wide software licence and does not imply flight or operational validation. Unrelated technical-dossier revisions remain separate from Study 2A.
+Inline viewing and navigation from a PDF depend on the reader's support for relative links. The project page also provides direct links to all three publications.
